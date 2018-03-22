@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udacitybackground"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/city"
+        android:fontFamily="casual"
+        android:paddingLeft="8dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#BBDEFB"
+        android:text="2465 Latham St"
+    />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        android:fontFamily="casual"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#BBDEFB"
+        android:text="Mountain View, CA 94043"
+
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="8dp"
+        android:paddingBottom="30dp"
+        android:fontFamily="casual"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#BBDEFB"
+        android:text="650-555-5555"
+
+        />
+
+
+</RelativeLayout>
