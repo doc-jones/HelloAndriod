@@ -10,8 +10,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/udacitybackground"
-        />
+        android:src="@drawable/udacitybackground" />
 
     <TextView
         android:id="@+id/address"
@@ -56,6 +55,5 @@
         android:text="650-555-5555"
 
         />
-
 
 </RelativeLayout>
